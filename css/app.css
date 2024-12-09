@@ -1,0 +1,101 @@
+@import url(./font.css);   
+body {
+    min-height: 2000px;
+}
+
+
+.navbar{
+    min-height: 85px;
+}
+
+.navbar-nav {
+    gap: 2rem;
+    padding-right: 2rem;
+} 
+
+
+
+/* .service-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto; Biarkan fleksibel
+    padding: 20px;
+  } */
+
+  @media (max-width: 576px) { 
+    .service-section {
+        min-height: 2000px;
+    }
+}
+
+@media (max-width: 768px) {
+    .service-section {
+        height: 1800px;
+    }
+}
+
+@media (max-width: 992px) {
+    .service-section {
+        min-height: 1000px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .service-section {
+        min-height: 900px;
+    }
+}
+
+  
+  /* .service-section {
+    background-color: #273036;
+    height: 800px;
+    color:#ffff;
+}
+
+@media (max-width: 576px) { 
+
+    .service-section {
+        height: 2000px;
+    }
+
+    .img-rs {
+      max-width: 400px;
+      margin-top: 1rem; 
+    }
+  }
+
+
+@media (max-width: 768px) {
+    .service-section {
+      height: 1800px;
+    }
+  }
+
+
+@media (max-width: 992px) {
+    .navbar-nav {
+        gap: 0;
+    padding-right: 0;
+}
+
+.service-section {
+    height: 1000px;
+}
+
+.btn-secondary {
+    margin-top: 1rem;
+
+}
+
+}
+
+@media (max-width: 1200px) {
+    #service {
+      height: 900px;
+    }
+  } */
+
+
+
